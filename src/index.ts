@@ -1486,6 +1486,7 @@ export const formats: IFormat[] = [
   bitcoinBase58Chain('STRAT', 105, [[0x3F]], [[0x7D]]),
   getConfig('ARK', 111, bs58Encode, arkAddressDecoder),
   bech32Chain('ATOM', 118, 'cosmos'),
+  bech32Chain('LIKE', 118, 'like'),
   bech32Chain('ZIL', 119, 'zil'),
   bech32Chain('EGLD', 120, 'erd'),
   getConfig('ZEN', 121, zenEncoder, zenDecoder),

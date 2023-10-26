@@ -198,6 +198,13 @@ const vectors: Array<TestVector> = [
     ],
   },
   {
+    name: 'LIKE',
+    coinType: 118,
+    passingVectors: [
+      { text: 'like1depk54cuajgkzea6zpgkq36tnjwdzv4a6yd0f9', hex: '6e436a571cec916167ba105160474b9c9cd132bd' },
+    ],
+  },
+  {
     name: 'ZIL',
     coinType: 119,
     passingVectors: [
